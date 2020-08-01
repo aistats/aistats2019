@@ -9,9 +9,17 @@ baseurl: "/aistats2019" # the subpath of your site, e.g. /blog/
 #twitter_username: aistat
 github_username:  aistats
 
-github:
+author:
+  name: AISTATS
+comments: false
+plugins:
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+
+ghub:
   edit: true
   repository: aistats.github.io
+
 TZ: PDT
 
 # Build settings
@@ -20,20 +28,14 @@ markdown: kramdown
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 
-# Handling Reading
-#safe:         false
-#include:      [".htaccess"]
 exclude: [ "accommodation.html", "andreas_krause.html", "david_blei.html", "jeniffer_hill.html", "student_volunteers_application.html" ]
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 image:
   file: fukusyu-en_zenkei1L.jpg
   width: 400
 
 banner:
-  image: banner.png
+  image: resort.png
 
 credit_card_image: credit.png
 
@@ -58,7 +60,7 @@ conference:
   - 2019-04-18
   submission:
     show: true
-    url: http://cmt3.research.microsoft.com/AISTATS2019/ #https://cmt.research.microsoft.com/AISTATS2018/
+    url: http://cmt3.research.microsoft.com/AISTATS2019/ 
     name: Microsoft CMT website
   deadlines:
     - name: Submission server open
@@ -439,6 +441,3 @@ conference:
 #    url: http://research.microsoft.com
 #    width: 300
 
-previous_meeting:
-  name:
-  url:
