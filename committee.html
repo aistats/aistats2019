@@ -2,12 +2,12 @@
 layout: default
 title: Organizers
 hide: false
-navigation_weight: 4
+weight: 4
 ---
 
 <h1>{{ site.conference.name }} {{ site.conference.year }} Organizing Committee</h1>
 
-
+{%if site.email %}General inquiries should be sent to {{ site.email }}.{%endif%}
 
 {% if site.conference.chairs %}
 {% for chair in site.conference.chairs %}
@@ -15,9 +15,9 @@ navigation_weight: 4
 {% endfor %}
 {% endif %}
 
+
 <h3>Area Chairs</h3>
-<p>
-  <div>
+<div>
   <ul>
     <li>Aaditya Ramdas (Carnegie Mellon University)</li>
     <li>Adrian Weller (University of Cambridge)</li>
@@ -135,4 +135,3 @@ navigation_weight: 4
   </div>
 </p>
 
-General inquiries should be sent to {{ site.email }}.
