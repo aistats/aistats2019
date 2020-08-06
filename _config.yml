@@ -1,7 +1,6 @@
 
 # Site settings
 title: Artificial Intelligence and Statistics Conference
-email: aistats2019@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is the website of the AISTATS conference.
 baseurl: "/aistats2019" # the subpath of your site, e.g. /blog/
@@ -11,6 +10,7 @@ github_username:  aistats
 
 author:
   name: AISTATS
+  email: aistats2019@gmail.com
 comments: false
 plugins:
 - jekyll-feed
@@ -21,7 +21,7 @@ style: aistats
 
 ghub:
   edit: true
-  repository: aistats.github.io
+  repository: aistats2019
 
 TZ: PDT
 
@@ -43,7 +43,7 @@ conference:
     url: http://proceedings.mlr.press/v89/
     show: true
   room: 
-  venue: LOISIR Hotel Naha (3-2-1 Nishi, Naha-shi, Okinawa, 900-0036, Japan)
+  venue: LOISIR Hotel 
   venue_url: http://www.solarehotels.com/en/hotel/okinawa/loisir-naha/?_ga=2.26044093.18688415.1504828500-1079017007.1493258416
   location: Naha, Okinawa, Japan
   full_name: Artificial Intelligence and Statistics
@@ -54,6 +54,7 @@ conference:
   styling: International Conference on
   dates:
   - 2019-04-16
+  - 2019-04-17
   - 2019-04-18
   submission:
     show: false
